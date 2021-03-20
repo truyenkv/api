@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FXCE" class="navigator-link">
+              <span class="suite-name border-passed">FXCE</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FXCE" class="navigator-link ">
+                    <span>RunTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FXCE" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FXCE" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FXCE" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FXCE" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FXCE" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FXCE" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods,   42 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FXCE" class="hide-methods passed suite-FXCE"> (hide)</a> <!-- hide-methods passed suite-FXCE -->
+                      <a href="#" panel-name="suite-FXCE" class="show-methods passed suite-FXCE"> (show)</a> <!-- show-methods passed suite-FXCE -->
+                    </span>
+                    <div class="method-list-content passed suite-FXCE">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="Generate2FASuccessful">Generate2FASuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="Generate2FAWithoutToken">Generate2FAWithoutToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="LoginBackUpSucessful">LoginBackUpSucessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyConfirmEmailFail(L121UqCBaUkzq2_nSJ_7)">VerifyConfirmEmailFail(L121UqCBaUkzq2_nSJ_7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyConfirmEmailFail()">VerifyConfirmEmailFail()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyConfirmSuccessful">VerifyConfirmSuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FAHadnotEnabledYet">VerifyDisable2FAHadnotEnabledYet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FASuccessful">VerifyDisable2FASuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FAWithInvalidInfor(, 323423, incorrectPass)">VerifyDisable2FAWithInvalidInfor(, 323423, incorrectPass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FAWithInvalidInfor(Truyen, 323423, incorrectPass)">VerifyDisable2FAWithInvalidInfor(Truyen, 323423, incorrectPass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FAWithInvalidInfor(Truyen1234@, , backupCodeRequire)">VerifyDisable2FAWithInvalidInfor(Truyen1234@, , backupCodeRequire)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FAWithInvalidInfor(Truyen1234@, 234234, towFAEnableFail)">VerifyDisable2FAWithInvalidInfor(Truyen1234@, 234234, towFAEnableFail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FAWithInvalidInfor(, , incorrectPass)">VerifyDisable2FAWithInvalidInfor(, , incorrectPass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyDisable2FAWithSessionRevoked">VerifyDisable2FAWithSessionRevoked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyEnable2FASuccessful">VerifyEnable2FASuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyEnable2FAWithInvalidData(Truyen1234@, 323423, towFAEnableFail)">VerifyEnable2FAWithInvalidData(Truyen1234@, 323423, towFAEnableFail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyEnable2FAWithInvalidData(, , incorrectPass)">VerifyEnable2FAWithInvalidData(, , incorrectPass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyEnable2FAWithInvalidData(Truyen1234, 323423, incorrectPass)">VerifyEnable2FAWithInvalidData(Truyen1234, 323423, incorrectPass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyEnable2WithSessionRevoked">VerifyEnable2WithSessionRevoked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyLogin2FA">VerifyLogin2FA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, 234234, tokenInValid)">VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, 234234, tokenInValid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyLogin2FAWithInvalidData(, 323423, tokenInValid)">VerifyLogin2FAWithInvalidData(, 323423, tokenInValid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, , tokenInValid)">VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, , tokenInValid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.TwoFAAuthen" class="method navigator-link" hash-for-method="VerifyLogin2FAWithInvalidData(, , tokenInValid)">VerifyLogin2FAWithInvalidData(, , tokenInValid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginAfterConfirmEmail">VerifyLoginAfterConfirmEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginByEmailOrUsername(truyen9161, Truyen1234@)">VerifyLoginByEmailOrUsername(truyen9161, Truyen1234@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginByEmailOrUsername(truyen1555@yopmail.com, Truyen1234@)">VerifyLoginByEmailOrUsername(truyen1555@yopmail.com, Truyen1234@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginByInvalidAccount(truyen.com.vn, Truyen1234@, loginInvalid)">VerifyLoginByInvalidAccount(truyen.com.vn, Truyen1234@, loginInvalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginByInvalidAccount(, , withoutRegister)">VerifyLoginByInvalidAccount(, , withoutRegister)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginByInvalidAccount(truyen1231@com.vn, Truyen1234@, loginInvalid)">VerifyLoginByInvalidAccount(truyen1231@com.vn, Truyen1234@, loginInvalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginByInvalidAccount(truyen1231@com.vn, , loginInvalid)">VerifyLoginByInvalidAccount(truyen1231@com.vn, , loginInvalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyLoginWithoutActiveEmail">VerifyLoginWithoutActiveEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterSuccessful">VerifyRegisterSuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyenkieu@vncdevs.com, truyenkv, Aa123456@, existedEmail)">VerifyRegisterWithInvalidInfor(truyenkieu@vncdevs.com, truyenkv, Aa123456@, existedEmail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, TruyenKV, Aa123456@, invalidUsername)">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, TruyenKV, Aa123456@, invalidUsername)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyen@@yopmail.com, truyenkv, Aa123456@, invalidEmail)">VerifyRegisterWithInvalidInfor(truyen@@yopmail.com, truyenkv, Aa123456@, invalidEmail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, , Aa123456@, invalidUsername)">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, , Aa123456@, invalidUsername)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyen, truyenkv, Aa123456@, invalidEmail)">VerifyRegisterWithInvalidInfor(truyen, truyenkv, Aa123456@, invalidEmail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(, truyenkv, Aa123456@, emailNull)">VerifyRegisterWithInvalidInfor(, truyenkv, Aa123456@, emailNull)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen3133, Aa123456@, existedUsername)">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen3133, Aa123456@, existedUsername)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, , passNull)">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, , passNull)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FXCE" title="TestCase.SSO.RegisterAndLogin" class="method navigator-link" hash-for-method="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, 123, passInvalid)">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, 123, passInvalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FXCE -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FXCE" class="panel FXCE">
+          <div class="suite-FXCE-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.SSO.RegisterAndLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyConfirmEmailFail(L121UqCBaUkzq2_nSJ_7)">
+                  </a> <!-- VerifyConfirmEmailFail(L121UqCBaUkzq2_nSJ_7) -->
+                  <span class="method-name">VerifyConfirmEmailFail</span>
+                  <span class="parameters">(L121UqCBaUkzq2_nSJ_7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyConfirmEmailFail()">
+                  </a> <!-- VerifyConfirmEmailFail() -->
+                  <span class="method-name">VerifyConfirmEmailFail</span>
+                  <span class="parameters">()</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyConfirmSuccessful">
+                  </a> <!-- VerifyConfirmSuccessful -->
+                  <span class="method-name">VerifyConfirmSuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginAfterConfirmEmail">
+                  </a> <!-- VerifyLoginAfterConfirmEmail -->
+                  <span class="method-name">VerifyLoginAfterConfirmEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginByEmailOrUsername(truyen9161, Truyen1234@)">
+                  </a> <!-- VerifyLoginByEmailOrUsername(truyen9161, Truyen1234@) -->
+                  <span class="method-name">VerifyLoginByEmailOrUsername</span>
+                  <span class="parameters">(truyen9161, Truyen1234@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginByEmailOrUsername(truyen1555@yopmail.com, Truyen1234@)">
+                  </a> <!-- VerifyLoginByEmailOrUsername(truyen1555@yopmail.com, Truyen1234@) -->
+                  <span class="method-name">VerifyLoginByEmailOrUsername</span>
+                  <span class="parameters">(truyen1555@yopmail.com, Truyen1234@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginByInvalidAccount(truyen.com.vn, Truyen1234@, loginInvalid)">
+                  </a> <!-- VerifyLoginByInvalidAccount(truyen.com.vn, Truyen1234@, loginInvalid) -->
+                  <span class="method-name">VerifyLoginByInvalidAccount</span>
+                  <span class="parameters">(truyen.com.vn, Truyen1234@, loginInvalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginByInvalidAccount(, , withoutRegister)">
+                  </a> <!-- VerifyLoginByInvalidAccount(, , withoutRegister) -->
+                  <span class="method-name">VerifyLoginByInvalidAccount</span>
+                  <span class="parameters">(, , withoutRegister)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginByInvalidAccount(truyen1231@com.vn, Truyen1234@, loginInvalid)">
+                  </a> <!-- VerifyLoginByInvalidAccount(truyen1231@com.vn, Truyen1234@, loginInvalid) -->
+                  <span class="method-name">VerifyLoginByInvalidAccount</span>
+                  <span class="parameters">(truyen1231@com.vn, Truyen1234@, loginInvalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginByInvalidAccount(truyen1231@com.vn, , loginInvalid)">
+                  </a> <!-- VerifyLoginByInvalidAccount(truyen1231@com.vn, , loginInvalid) -->
+                  <span class="method-name">VerifyLoginByInvalidAccount</span>
+                  <span class="parameters">(truyen1231@com.vn, , loginInvalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithoutActiveEmail">
+                  </a> <!-- VerifyLoginWithoutActiveEmail -->
+                  <span class="method-name">VerifyLoginWithoutActiveEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterSuccessful">
+                  </a> <!-- VerifyRegisterSuccessful -->
+                  <span class="method-name">VerifyRegisterSuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyenkieu@vncdevs.com, truyenkv, Aa123456@, existedEmail)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyenkieu@vncdevs.com, truyenkv, Aa123456@, existedEmail) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyenkieu@vncdevs.com, truyenkv, Aa123456@, existedEmail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, TruyenKV, Aa123456@, invalidUsername)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, TruyenKV, Aa123456@, invalidUsername) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyen1232@yopmail.com, TruyenKV, Aa123456@, invalidUsername)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyen@@yopmail.com, truyenkv, Aa123456@, invalidEmail)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyen@@yopmail.com, truyenkv, Aa123456@, invalidEmail) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyen@@yopmail.com, truyenkv, Aa123456@, invalidEmail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, , Aa123456@, invalidUsername)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, , Aa123456@, invalidUsername) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyen1232@yopmail.com, , Aa123456@, invalidUsername)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyen, truyenkv, Aa123456@, invalidEmail)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyen, truyenkv, Aa123456@, invalidEmail) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyen, truyenkv, Aa123456@, invalidEmail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(, truyenkv, Aa123456@, emailNull)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(, truyenkv, Aa123456@, emailNull) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(, truyenkv, Aa123456@, emailNull)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen3133, Aa123456@, existedUsername)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen3133, Aa123456@, existedUsername) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyen1232@yopmail.com, truyen3133, Aa123456@, existedUsername)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, , passNull)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, , passNull) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyen1232@yopmail.com, truyen31333, , passNull)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, 123, passInvalid)">
+                  </a> <!-- VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, 123, passInvalid) -->
+                  <span class="method-name">VerifyRegisterWithInvalidInfor</span>
+                  <span class="parameters">(truyen1232@yopmail.com, truyen31333, 123, passInvalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FXCE-class-passed -->
+          <div class="suite-FXCE-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.SSO.TwoFAAuthen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Generate2FASuccessful">
+                  </a> <!-- Generate2FASuccessful -->
+                  <span class="method-name">Generate2FASuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Generate2FAWithoutToken">
+                  </a> <!-- Generate2FAWithoutToken -->
+                  <span class="method-name">Generate2FAWithoutToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginBackUpSucessful">
+                  </a> <!-- LoginBackUpSucessful -->
+                  <span class="method-name">LoginBackUpSucessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FAHadnotEnabledYet">
+                  </a> <!-- VerifyDisable2FAHadnotEnabledYet -->
+                  <span class="method-name">VerifyDisable2FAHadnotEnabledYet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FASuccessful">
+                  </a> <!-- VerifyDisable2FASuccessful -->
+                  <span class="method-name">VerifyDisable2FASuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FAWithInvalidInfor(, 323423, incorrectPass)">
+                  </a> <!-- VerifyDisable2FAWithInvalidInfor(, 323423, incorrectPass) -->
+                  <span class="method-name">VerifyDisable2FAWithInvalidInfor</span>
+                  <span class="parameters">(, 323423, incorrectPass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FAWithInvalidInfor(Truyen, 323423, incorrectPass)">
+                  </a> <!-- VerifyDisable2FAWithInvalidInfor(Truyen, 323423, incorrectPass) -->
+                  <span class="method-name">VerifyDisable2FAWithInvalidInfor</span>
+                  <span class="parameters">(Truyen, 323423, incorrectPass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FAWithInvalidInfor(Truyen1234@, , backupCodeRequire)">
+                  </a> <!-- VerifyDisable2FAWithInvalidInfor(Truyen1234@, , backupCodeRequire) -->
+                  <span class="method-name">VerifyDisable2FAWithInvalidInfor</span>
+                  <span class="parameters">(Truyen1234@, , backupCodeRequire)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FAWithInvalidInfor(Truyen1234@, 234234, towFAEnableFail)">
+                  </a> <!-- VerifyDisable2FAWithInvalidInfor(Truyen1234@, 234234, towFAEnableFail) -->
+                  <span class="method-name">VerifyDisable2FAWithInvalidInfor</span>
+                  <span class="parameters">(Truyen1234@, 234234, towFAEnableFail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FAWithInvalidInfor(, , incorrectPass)">
+                  </a> <!-- VerifyDisable2FAWithInvalidInfor(, , incorrectPass) -->
+                  <span class="method-name">VerifyDisable2FAWithInvalidInfor</span>
+                  <span class="parameters">(, , incorrectPass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDisable2FAWithSessionRevoked">
+                  </a> <!-- VerifyDisable2FAWithSessionRevoked -->
+                  <span class="method-name">VerifyDisable2FAWithSessionRevoked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEnable2FASuccessful">
+                  </a> <!-- VerifyEnable2FASuccessful -->
+                  <span class="method-name">VerifyEnable2FASuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEnable2FAWithInvalidData(Truyen1234@, 323423, towFAEnableFail)">
+                  </a> <!-- VerifyEnable2FAWithInvalidData(Truyen1234@, 323423, towFAEnableFail) -->
+                  <span class="method-name">VerifyEnable2FAWithInvalidData</span>
+                  <span class="parameters">(Truyen1234@, 323423, towFAEnableFail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEnable2FAWithInvalidData(, , incorrectPass)">
+                  </a> <!-- VerifyEnable2FAWithInvalidData(, , incorrectPass) -->
+                  <span class="method-name">VerifyEnable2FAWithInvalidData</span>
+                  <span class="parameters">(, , incorrectPass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEnable2FAWithInvalidData(Truyen1234, 323423, incorrectPass)">
+                  </a> <!-- VerifyEnable2FAWithInvalidData(Truyen1234, 323423, incorrectPass) -->
+                  <span class="method-name">VerifyEnable2FAWithInvalidData</span>
+                  <span class="parameters">(Truyen1234, 323423, incorrectPass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEnable2WithSessionRevoked">
+                  </a> <!-- VerifyEnable2WithSessionRevoked -->
+                  <span class="method-name">VerifyEnable2WithSessionRevoked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin2FA">
+                  </a> <!-- VerifyLogin2FA -->
+                  <span class="method-name">VerifyLogin2FA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, 234234, tokenInValid)">
+                  </a> <!-- VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, 234234, tokenInValid) -->
+                  <span class="method-name">VerifyLogin2FAWithInvalidData</span>
+                  <span class="parameters">(2342fwwerwer2423423d, 234234, tokenInValid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin2FAWithInvalidData(, 323423, tokenInValid)">
+                  </a> <!-- VerifyLogin2FAWithInvalidData(, 323423, tokenInValid) -->
+                  <span class="method-name">VerifyLogin2FAWithInvalidData</span>
+                  <span class="parameters">(, 323423, tokenInValid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, , tokenInValid)">
+                  </a> <!-- VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, , tokenInValid) -->
+                  <span class="method-name">VerifyLogin2FAWithInvalidData</span>
+                  <span class="parameters">(2342fwwerwer2423423d, , tokenInValid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogin2FAWithInvalidData(, , tokenInValid)">
+                  </a> <!-- VerifyLogin2FAWithInvalidData(, , tokenInValid) -->
+                  <span class="method-name">VerifyLogin2FAWithInvalidData</span>
+                  <span class="parameters">(, , tokenInValid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FXCE-class-passed -->
+        </div> <!-- panel FXCE -->
+        <div panel-name="test-xml-FXCE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/apple/Documents/Source/auto-fxce/src/test/resources/RunTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FXCE&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SSO&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.SSO.RegisterAndLogin&quot;/&gt;
+      &lt;class name=&quot;TestCase.SSO.TwoFAAuthen&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SSO --&gt;
+&lt;/suite&gt; &lt;!-- FXCE --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FXCE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FXCE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SSO (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FXCE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FXCE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FXCE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FXCE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FXCE');
+function tableData_FXCE() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyDisable2FAWithInvalidInfor')
+data.setCell(0, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(0, 3, 66673);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyDisable2FAWithInvalidInfor')
+data.setCell(1, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(1, 3, 66149);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyDisable2FAWithInvalidInfor')
+data.setCell(2, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(2, 3, 66097);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyDisable2FAWithInvalidInfor')
+data.setCell(3, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(3, 3, 65801);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyDisable2FAWithInvalidInfor')
+data.setCell(4, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(4, 3, 65710);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyLogin2FA')
+data.setCell(5, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(5, 3, 31506);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyDisable2FASuccessful')
+data.setCell(6, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(6, 3, 31456);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyEnable2FAWithInvalidData')
+data.setCell(7, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(7, 3, 4243);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LoginBackUpSucessful')
+data.setCell(8, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(8, 3, 3802);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyEnable2FAWithInvalidData')
+data.setCell(9, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(9, 3, 3674);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyEnable2FAWithInvalidData')
+data.setCell(10, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(10, 3, 3325);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Generate2FASuccessful')
+data.setCell(11, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(11, 3, 2808);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyDisable2FAWithSessionRevoked')
+data.setCell(12, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(12, 3, 2471);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyDisable2FAHadnotEnabledYet')
+data.setCell(13, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(13, 3, 1528);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(14, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(14, 3, 1410);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(15, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(15, 3, 615);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(16, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(16, 3, 607);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyRegisterSuccessful')
+data.setCell(17, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(17, 3, 584);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(18, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(18, 3, 502);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifyLoginAfterConfirmEmail')
+data.setCell(19, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(19, 3, 352);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyEnable2FASuccessful')
+data.setCell(20, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(20, 3, 341);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifyLoginByEmailOrUsername')
+data.setCell(21, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(21, 3, 324);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyLoginByEmailOrUsername')
+data.setCell(22, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(22, 3, 321);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifyLoginWithoutActiveEmail')
+data.setCell(23, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(23, 3, 318);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyLoginByInvalidAccount')
+data.setCell(24, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(24, 3, 306);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(25, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(25, 3, 297);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'VerifyLoginByInvalidAccount')
+data.setCell(26, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(26, 3, 292);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'VerifyConfirmSuccessful')
+data.setCell(27, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(27, 3, 117);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(28, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(28, 3, 109);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'VerifyConfirmEmailFail')
+data.setCell(29, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(29, 3, 103);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'VerifyLogin2FAWithInvalidData')
+data.setCell(30, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(30, 3, 99);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(31, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(31, 3, 96);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'VerifyEnable2WithSessionRevoked')
+data.setCell(32, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(32, 3, 94);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(33, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(33, 3, 93);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'VerifyLogin2FAWithInvalidData')
+data.setCell(34, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(34, 3, 88);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'VerifyConfirmEmailFail')
+data.setCell(35, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(35, 3, 88);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'VerifyLoginByInvalidAccount')
+data.setCell(36, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(36, 3, 87);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Generate2FAWithoutToken')
+data.setCell(37, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(37, 3, 83);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'VerifyRegisterWithInvalidInfor')
+data.setCell(38, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(38, 3, 83);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'VerifyLoginByInvalidAccount')
+data.setCell(39, 2, 'TestCase.SSO.RegisterAndLogin')
+data.setCell(39, 3, 82);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'VerifyLogin2FAWithInvalidData')
+data.setCell(40, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(40, 3, 78);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'VerifyLogin2FAWithInvalidData')
+data.setCell(41, 2, 'TestCase.SSO.TwoFAAuthen')
+data.setCell(41, 3, 76);
+window.suiteTableData['FXCE']= { tableData: data, tableDiv: 'times-div-FXCE'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-FXCE">
+              </div> <!-- times-div-FXCE -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FXCE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FXCE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FXCE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FXCE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.SSO.RegisterAndLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(, truyenkv, Aa123456@, emailNull)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">1431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyen, truyenkv, Aa123456@, invalidEmail)</span>
+                <span class="method-start">1431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">1933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyen@@yopmail.com, truyenkv, Aa123456@, invalidEmail)</span>
+                <span class="method-start">1933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">2540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyenkieu@vncdevs.com, truyenkv, Aa123456@, existedEmail)</span>
+                <span class="method-start">2541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">3156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, , Aa123456@, invalidUsername)</span>
+                <span class="method-start">3157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">3254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, TruyenKV, Aa123456@, invalidUsername)</span>
+                <span class="method-start">3254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">3348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen3133, Aa123456@, existedUsername)</span>
+                <span class="method-start">3348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">3432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, , passNull)</span>
+                <span class="method-start">3432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">3542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithInvalidInfor(truyen1232@yopmail.com, truyen31333, 123, passInvalid)</span>
+                <span class="method-start">3542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">3840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterSuccessful</span>
+                <span class="method-start">3841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">4426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithoutActiveEmail</span>
+                <span class="method-start">4426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">4745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyConfirmEmailFail()</span>
+                <span class="method-start">4745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">4848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyConfirmEmailFail(L121UqCBaUkzq2_nSJ_7)</span>
+                <span class="method-start">4849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">4938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyConfirmSuccessful</span>
+                <span class="method-start">4939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">5057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginByEmailOrUsername(truyen1555@yopmail.com, Truyen1234@)</span>
+                <span class="method-start">5058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">5383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginByEmailOrUsername(truyen9161, Truyen1234@)</span>
+                <span class="method-start">5383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">5704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginByInvalidAccount(, , withoutRegister)</span>
+                <span class="method-start">5705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">5793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginByInvalidAccount(truyen.com.vn, Truyen1234@, loginInvalid)</span>
+                <span class="method-start">5793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">6099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginByInvalidAccount(truyen1231@com.vn, Truyen1234@, loginInvalid)</span>
+                <span class="method-start">6100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">6392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginByInvalidAccount(truyen1231@com.vn, , loginInvalid)</span>
+                <span class="method-start">6393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">6476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginAfterConfirmEmail</span>
+                <span class="method-start">6476 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.SSO.TwoFAAuthen</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">6829 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">6830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Generate2FAWithoutToken</span>
+                <span class="method-start">6830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">6914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Generate2FASuccessful</span>
+                <span class="method-start">6914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">9722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEnable2FASuccessful</span>
+                <span class="method-start">9723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">10065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEnable2WithSessionRevoked</span>
+                <span class="method-start">10065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">10159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogin2FA</span>
+                <span class="method-start">10159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">41666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogin2FAWithInvalidData(, , tokenInValid)</span>
+                <span class="method-start">41666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">41744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogin2FAWithInvalidData(, 323423, tokenInValid)</span>
+                <span class="method-start">41744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">41820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, , tokenInValid)</span>
+                <span class="method-start">41821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">41920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogin2FAWithInvalidData(2342fwwerwer2423423d, 234234, tokenInValid)</span>
+                <span class="method-start">41920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">42010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FASuccessful</span>
+                <span class="method-start">42010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">73467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEnable2FAWithInvalidData(, , incorrectPass)</span>
+                <span class="method-start">73467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">77141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEnable2FAWithInvalidData(Truyen1234, 323423, incorrectPass)</span>
+                <span class="method-start">77141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">81384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEnable2FAWithInvalidData(Truyen1234@, 323423, towFAEnableFail)</span>
+                <span class="method-start">81385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">84711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FAHadnotEnabledYet</span>
+                <span class="method-start">84711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">86239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FAWithSessionRevoked</span>
+                <span class="method-start">86240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">88712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FAWithInvalidInfor(, , incorrectPass)</span>
+                <span class="method-start">88712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">155385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FAWithInvalidInfor(, 323423, incorrectPass)</span>
+                <span class="method-start">155386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">221188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FAWithInvalidInfor(Truyen, 323423, incorrectPass)</span>
+                <span class="method-start">221188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">287337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FAWithInvalidInfor(Truyen1234@, 234234, towFAEnableFail)</span>
+                <span class="method-start">287338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">353436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDisable2FAWithInvalidInfor(Truyen1234@, , backupCodeRequire)</span>
+                <span class="method-start">353436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">419147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginBackUpSucessful</span>
+                <span class="method-start">419147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.SSO.RegisterAndLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Connection</span>
+                <span class="method-start">422949 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.SSO.TwoFAAuthen</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Connection</span>
+                <span class="method-start">422950 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

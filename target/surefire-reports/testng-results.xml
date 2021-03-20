@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="42" passed="42" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-19T14:20:36 ICT" name="FXCE" finished-at="2021-03-19T14:27:39 ICT" duration-ms="422963">
+    <groups>
+    </groups>
+    <test started-at="2021-03-19T14:20:36 ICT" name="SSO" finished-at="2021-03-19T14:27:39 ICT" duration-ms="422963">
+      <class name="TestCase.SSO.TwoFAAuthen">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:43 ICT" name="BeforeTest" finished-at="2021-03-19T14:20:43 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Generate2FAWithoutToken()[pri:1, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:43 ICT" name="Generate2FAWithoutToken" finished-at="2021-03-19T14:20:43 ICT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate2FAWithoutToken -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:43 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:43 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Generate2FASuccessful()[pri:2, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:43 ICT" name="Generate2FASuccessful" finished-at="2021-03-19T14:20:46 ICT" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate2FASuccessful -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:43 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:43 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:46 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:46 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyEnable2FASuccessful()[pri:3, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:46 ICT" name="VerifyEnable2FASuccessful" finished-at="2021-03-19T14:20:46 ICT" depends-on-methods="TestCase.SSO.TwoFAAuthen.Generate2FASuccessful" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnable2FASuccessful -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:46 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:46 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyEnable2WithSessionRevoked()[pri:4, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:46 ICT" name="VerifyEnable2WithSessionRevoked" finished-at="2021-03-19T14:20:46 ICT" depends-on-methods="TestCase.SSO.TwoFAAuthen.VerifyEnable2FASuccessful" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnable2WithSessionRevoked -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:46 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:46 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLogin2FA()[pri:5, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:20:46 ICT" name="VerifyLogin2FA" finished-at="2021-03-19T14:21:18 ICT" depends-on-methods="TestCase.SSO.TwoFAAuthen.VerifyEnable2FASuccessful" duration-ms="31506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin2FA -->
+        <test-method signature="VerifyLogin2FAWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="VerifyLogin2FAWithInvalidData" data-provider="Invalid2FALogin" finished-at="2021-03-19T14:21:18 ICT" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tokenInValid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin2FAWithInvalidData -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:18 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:18 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLogin2FAWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="VerifyLogin2FAWithInvalidData" data-provider="Invalid2FALogin" finished-at="2021-03-19T14:21:18 ICT" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[323423]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tokenInValid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin2FAWithInvalidData -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:18 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLogin2FAWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="VerifyLogin2FAWithInvalidData" data-provider="Invalid2FALogin" finished-at="2021-03-19T14:21:18 ICT" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2342fwwerwer2423423d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tokenInValid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin2FAWithInvalidData -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:18 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLogin2FAWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="VerifyLogin2FAWithInvalidData" data-provider="Invalid2FALogin" finished-at="2021-03-19T14:21:18 ICT" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2342fwwerwer2423423d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tokenInValid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin2FAWithInvalidData -->
+        <test-method signature="VerifyDisable2FASuccessful()[pri:7, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="VerifyDisable2FASuccessful" finished-at="2021-03-19T14:21:50 ICT" depends-on-methods="TestCase.SSO.TwoFAAuthen.VerifyLogin2FA" duration-ms="31456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FASuccessful -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:18 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:18 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyEnable2FAWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:50 ICT" name="VerifyEnable2FAWithInvalidData" data-provider="Enable2FAFail" finished-at="2021-03-19T14:21:53 ICT" duration-ms="3674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[incorrectPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnable2FAWithInvalidData -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:50 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:50 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:53 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyEnable2FAWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:53 ICT" name="VerifyEnable2FAWithInvalidData" data-provider="Enable2FAFail" finished-at="2021-03-19T14:21:58 ICT" duration-ms="4243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Truyen1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[323423]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[incorrectPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnable2FAWithInvalidData -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:58 ICT" name="BeforeMethod" finished-at="2021-03-19T14:21:58 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyEnable2FAWithInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:21:58 ICT" name="VerifyEnable2FAWithInvalidData" data-provider="Enable2FAFail" finished-at="2021-03-19T14:22:01 ICT" duration-ms="3325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Truyen1234@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[323423]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[towFAEnableFail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnable2FAWithInvalidData -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:22:01 ICT" name="BeforeMethod" finished-at="2021-03-19T14:22:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyDisable2FAHadnotEnabledYet()[pri:9, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:22:01 ICT" name="VerifyDisable2FAHadnotEnabledYet" finished-at="2021-03-19T14:22:03 ICT" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FAHadnotEnabledYet -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:22:03 ICT" name="BeforeMethod" finished-at="2021-03-19T14:22:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyDisable2FAWithSessionRevoked()[pri:10, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:22:03 ICT" name="VerifyDisable2FAWithSessionRevoked" finished-at="2021-03-19T14:22:05 ICT" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FAWithSessionRevoked -->
+        <test-method signature="VerifyDisable2FAWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:22:05 ICT" name="VerifyDisable2FAWithInvalidInfor" data-provider="Invalid2FADisable" finished-at="2021-03-19T14:23:12 ICT" duration-ms="66673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[incorrectPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FAWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:22:05 ICT" name="BeforeMethod" finished-at="2021-03-19T14:22:05 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:23:12 ICT" name="BeforeMethod" finished-at="2021-03-19T14:23:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyDisable2FAWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:23:12 ICT" name="VerifyDisable2FAWithInvalidInfor" data-provider="Invalid2FADisable" finished-at="2021-03-19T14:24:17 ICT" duration-ms="65801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[323423]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[incorrectPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FAWithInvalidInfor -->
+        <test-method signature="VerifyDisable2FAWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:24:17 ICT" name="VerifyDisable2FAWithInvalidInfor" data-provider="Invalid2FADisable" finished-at="2021-03-19T14:25:24 ICT" duration-ms="66149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Truyen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[323423]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[incorrectPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FAWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:24:17 ICT" name="BeforeMethod" finished-at="2021-03-19T14:24:17 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:25:24 ICT" name="BeforeMethod" finished-at="2021-03-19T14:25:24 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyDisable2FAWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:25:24 ICT" name="VerifyDisable2FAWithInvalidInfor" data-provider="Invalid2FADisable" finished-at="2021-03-19T14:26:30 ICT" duration-ms="66097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Truyen1234@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[towFAEnableFail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FAWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:26:30 ICT" name="BeforeMethod" finished-at="2021-03-19T14:26:30 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyDisable2FAWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:26:30 ICT" name="VerifyDisable2FAWithInvalidInfor" data-provider="Invalid2FADisable" finished-at="2021-03-19T14:27:35 ICT" duration-ms="65710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Truyen1234@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[backupCodeRequire]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDisable2FAWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:27:35 ICT" name="BeforeMethod" finished-at="2021-03-19T14:27:35 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="LoginBackUpSucessful()[pri:12, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:27:35 ICT" name="LoginBackUpSucessful" finished-at="2021-03-19T14:27:39 ICT" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBackUpSucessful -->
+        <test-method is-config="true" signature="Connection()[pri:0, instance:TestCase.SSO.TwoFAAuthen@4dd94a58]" started-at="2021-03-19T14:27:39 ICT" name="Connection" finished-at="2021-03-19T14:27:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Connection -->
+      </class> <!-- TestCase.SSO.TwoFAAuthen -->
+      <class name="TestCase.SSO.RegisterAndLogin">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:36 ICT" name="BeforeTest" finished-at="2021-03-19T14:20:36 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:36 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:36 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:38 ICT" duration-ms="1410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truyenkv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emailNull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:38 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:38 ICT" duration-ms="502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truyenkv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalidEmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:38 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:38 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:39 ICT" duration-ms="607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen@@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truyenkv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalidEmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:38 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:39 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:39 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:39 ICT" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyenkieu@vncdevs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truyenkv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[existedEmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:39 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:39 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:40 ICT" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1232@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalidUsername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:40 ICT" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1232@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TruyenKV]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalidUsername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:40 ICT" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1232@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truyen3133]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[existedUsername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:40 ICT" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1232@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truyen31333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[passNull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterWithInvalidInfor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="VerifyRegisterWithInvalidInfor" data-provider="invalidUser" finished-at="2021-03-19T14:20:40 ICT" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1232@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truyen31333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[passInvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterWithInvalidInfor -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyRegisterSuccessful()[pri:2, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:40 ICT" name="VerifyRegisterSuccessful" finished-at="2021-03-19T14:20:41 ICT" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterSuccessful -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:41 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLoginWithoutActiveEmail()[pri:3, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="VerifyLoginWithoutActiveEmail" finished-at="2021-03-19T14:20:41 ICT" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithoutActiveEmail -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:41 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyConfirmEmailFail(java.lang.String)[pri:4, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="VerifyConfirmEmailFail" data-provider="tokenInvalid" finished-at="2021-03-19T14:20:41 ICT" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyConfirmEmailFail -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:41 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyConfirmEmailFail(java.lang.String)[pri:4, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="VerifyConfirmEmailFail" data-provider="tokenInvalid" finished-at="2021-03-19T14:20:41 ICT" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L121UqCBaUkzq2_nSJ_7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyConfirmEmailFail -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:41 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyConfirmSuccessful()[pri:5, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="VerifyConfirmSuccessful" finished-at="2021-03-19T14:20:41 ICT" depends-on-methods="TestCase.SSO.RegisterAndLogin.VerifyRegisterSuccessful" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyConfirmSuccessful -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:41 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLoginByEmailOrUsername(java.lang.String, java.lang.String)[pri:6, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:41 ICT" name="VerifyLoginByEmailOrUsername" data-provider="loginInfor" finished-at="2021-03-19T14:20:42 ICT" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1555@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Truyen1234@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginByEmailOrUsername -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:42 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLoginByEmailOrUsername(java.lang.String, java.lang.String)[pri:6, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="VerifyLoginByEmailOrUsername" data-provider="loginInfor" finished-at="2021-03-19T14:20:42 ICT" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen9161]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Truyen1234@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginByEmailOrUsername -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:42 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLoginByInvalidAccount(java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="VerifyLoginByInvalidAccount" data-provider="loginInvalid" finished-at="2021-03-19T14:20:42 ICT" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withoutRegister]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginByInvalidAccount -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:42 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLoginByInvalidAccount(java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="VerifyLoginByInvalidAccount" data-provider="loginInvalid" finished-at="2021-03-19T14:20:42 ICT" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen.com.vn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Truyen1234@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[loginInvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginByInvalidAccount -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:42 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLoginByInvalidAccount(java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:42 ICT" name="VerifyLoginByInvalidAccount" data-provider="loginInvalid" finished-at="2021-03-19T14:20:43 ICT" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1231@com.vn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Truyen1234@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[loginInvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginByInvalidAccount -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:43 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:43 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLoginByInvalidAccount(java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:43 ICT" name="VerifyLoginByInvalidAccount" data-provider="loginInvalid" finished-at="2021-03-19T14:20:43 ICT" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[truyen1231@com.vn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[loginInvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginByInvalidAccount -->
+        <test-method signature="VerifyLoginAfterConfirmEmail()[pri:8, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:43 ICT" name="VerifyLoginAfterConfirmEmail" finished-at="2021-03-19T14:20:43 ICT" depends-on-methods="TestCase.SSO.RegisterAndLogin.VerifyConfirmSuccessful" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginAfterConfirmEmail -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:20:43 ICT" name="BeforeMethod" finished-at="2021-03-19T14:20:43 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="Connection()[pri:0, instance:TestCase.SSO.RegisterAndLogin@3249a1ce]" started-at="2021-03-19T14:27:39 ICT" name="Connection" finished-at="2021-03-19T14:27:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Connection -->
+      </class> <!-- TestCase.SSO.RegisterAndLogin -->
+    </test> <!-- SSO -->
+  </suite> <!-- FXCE -->
+</testng-results>
